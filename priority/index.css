@@ -1,0 +1,64 @@
+* {
+  padding: 8px;
+}
+* {
+  padding: 4px;
+}
+body {
+  background-color: white;
+}
+body {
+  background-color: red;
+}
+.tag-ul {
+  background-color: orange;
+}
+ul {
+  background-color: white;
+}
+li:first-child {
+  background-color: yellow;
+}
+li.tag-li-first {
+  background-color: white;
+}
+[href*="https://naver"] {
+  background-color: white;
+}
+a.animal {
+  background-color: green;
+}
+
+a#people {
+  background-color: lime;
+}
+/*
+ * :link는 :visited 이전 상황이다
+ * :visited 이후에 크롬에서 방문기록을 삭제 하면, :link를 다시 볼 수 있다
+ * 개발자 도구에서는 :link로 되어 있지만, :visited이 보이고 있을 수 있다
+ * :active는 마우스 다운을 뜻 한다
+ */
+a#people:link, a#people:visited {
+  color: whitesmoke;
+  text-decoration: none;
+  background-color: white;
+}
+/* a#people:visited {
+  color: orange;
+  background-color: black;
+} */
+a#people:hover {
+  color: green;
+  background-color: silver;
+}
+a#people:active {
+  color: purple;
+  background-color: aqua;
+}
+body {
+  background-color: skyblue !important;
+}
+
+ul > a {
+  background-color: black !important;
+}
